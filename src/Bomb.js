@@ -1,6 +1,6 @@
 import React from 'react';
 
-class App extends React.Component {
+class Bomb extends React.Component {
   constructor(props) {
     super(props);
     this.state = {count: 0}
@@ -48,7 +48,7 @@ class App extends React.Component {
 
 }
 
-export default App;
+export default Bomb;
 
 // A component that uses life-cycles, setInterval and state to alternate between rendering either
 //  "tick" or "tock" for a time and then rendering "BOOM!!!!".
